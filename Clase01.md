@@ -63,7 +63,14 @@ Se pueden ejecutar varios contenedores simultáneamente.
 * Elimina la dependencia de la infraestructura
 * Permite a los desarrolladores centrarse en el desarrollo de aplicaciones 
 
+**Nota**: Link de descarga DOCKER destok
+[Windows 10 ](https://docs.docker.com/desktop/windows/install/) 
 
+**Proyecto 1**
+* Uso de herramientas de informática médica para la manipulación de imágenes.
+* XNAT: Herramienta de informática médica para gestión de proyectos de investigación con imágenes.
+* PACS: Sistema de almacenamiento de imágenes
+* Envío, recepción, modificación/anonimización y preparación de datos para análisis.
 
 
 
