@@ -105,18 +105,18 @@ El protocolo DICOM, tiene un campo sobre la imágen. Las caracteristicas de la i
 1. **Profundidad**: Cantidad de bits necesarios para representar el número de niveles de gris.
 
 <center>
-<img src=images/997ff3399292f973c0c3cac45fdd87d06bbadbe39fc0ac854a3f0e97fbb2a11a.png>
+<img src="images/997ff3399292f973c0c3cac45fdd87d06bbadbe39fc0ac854a3f0e97fbb2a11a.png">
 </center>
 
 **Resolución y profundidad según modalidades**
 <center>
-<img src=images/6b5fafccce280f334aeb12ddc22c6b9b158959743e82322d3f6fb4d784a1afb3.png>
+<img src="images/6b5fafccce280f334aeb12ddc22c6b9b158959743e82322d3f6fb4d784a1afb3.png">
 </center>
 
 ## 4. Otros formatos
 
 <center>
-<img src=images/f4b3b5f8d0c1b1f5edff794ec15fcb55bb521f3411e38e2ba680b199c07d263f.png>
+<img src="images/f4b3b5f8d0c1b1f5edff794ec15fcb55bb521f3411e38e2ba680b199c07d263f.png">
 </center>
 
 Los más comúnes:
@@ -128,7 +128,7 @@ Los más comúnes:
 ## 5. Opciones de compresión según 
 
 <center>
-<img src=images/206e731ebce15b885283ac016509b9d8732394d26834a008a0bcde0d8ac1e675.png> 
+<img src="images/206e731ebce15b885283ac016509b9d8732394d26834a008a0bcde0d8ac1e675.png"> 
 </center>
 
 ## 6. Herramientas para manipulación de imágenes DICOM dcm4che 5 toolkit 
