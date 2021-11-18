@@ -67,14 +67,14 @@ IODs-> IOD atribute | IOD instance
 * Ficheros
 
 <center>
-<img src=images/071dc83481ecd69ab8307fd8f313af6f83f5504763f89b48b13656d2a9f59177.png>
+<img src= "images/071dc83481ecd69ab8307fd8f313af6f83f5504763f89b48b13656d2a9f59177.png">
 </center>
 
 #### Modelo cliente-servidor
 Peticiones o consultas al servidor, en este caso el PACS, que contiene el deposito de imágenes DICOM. 
 
 <center>
-<img src=images/8534579efedcdbeaaed6f935e1da0384f3f95e6c21b16a1c1a877a8bacafdad5.png> 
+<img src= "images/8534579efedcdbeaaed6f935e1da0384f3f95e6c21b16a1c1a877a8bacafdad5.png"> 
 </center>
 
 En la transferencia de protocolos de TCP/IP, permite identificar nuestro equipo y apartir de ella podemos relacionarnos con otros dispositivos, nos permite la comunicación.
@@ -95,7 +95,7 @@ Me permiten realizar la transferencia de información
 La relación usuario-proveedor no es en una sola dirección. Dependiendo de lo que se requiera la AE. 
 
 <center>
-<img src=images/f03b3c8bb2a50f8dccba9b50fa63f0a567178fb4dba3ff7f8de7a515b36e5404.png> 
+<img src="images/f03b3c8bb2a50f8dccba9b50fa63f0a567178fb4dba3ff7f8de7a515b36e5404.png"> 
 </center>
 
 ## 3. Imágenes digitales
