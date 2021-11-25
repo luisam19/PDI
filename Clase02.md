@@ -141,3 +141,5 @@ Librería de python para trabajar con archivos DICOM. Permite manipulación de i
 Elementos importantes al trabajar con pydicom:
 * Dataset
 * DataElement: es una clase 
+
+
