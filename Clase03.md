@@ -43,6 +43,7 @@ Cada plugin está empaquetado en su propio contenedor que puede ser implementado
 Correr XNAT en una máquina virtual
 1. Descargar virtual box
 2. Descargar vagrant 
+[vagrantfile](https://github.com/luisam19/PDI/blob/main/Vagrantfile) 
 3. Correr en la ruta donde tiene el vagrantfile las siguientes líneas: 
  ```js 
  vagrant up 
