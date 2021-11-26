@@ -43,8 +43,11 @@ Cada plugin está empaquetado en su propio contenedor que puede ser implementado
 Correr XNAT en una máquina virtual
 1. Descargar virtual box
 2. Descargar vagrant 
-3. vagrant up 
-4. Vagrant ssh
+3. Correr en la ruta donde tiene el vagrantfile las siguientes líneas: 
+ ```js 
+ vagrant up 
+ js Vagrant ssh 
+ ```
 4. instalar docker en ubuntu
 seguir los pasos: <https://docs.docker.com/engine/install/ubuntu/>
 5. Instalar docker compose
@@ -55,7 +58,7 @@ Seguir los pasos:  <https://phoenixnap.com/kb/docker-memory-and-cpu-limit>
 ```js
 sudo apt install gradle
 ```
-8. correr los primeros pasos de la guía de la instalación AURA 
+8. correr los primeros pasos de la guía de la instalación Aura 
 ```js
 // clonar repositorio
 git clone https://github.com/NrgXnat/xnat-docker-compose 
@@ -66,7 +69,10 @@ cp default.env myProps.env
 // Lanzar especificando entorno y archivo de manifiesto
 sudo ./gradlew -PenvFile=myProps.env -Pmanifest=manifest-1.8.2.json fullStackComposeBuild
 ```
-9. sudo docker-compose up -d 
+9. 
+```js 
+sudo docker-compose up -d 
+```
 10. 1. Añadir plugin DRQ ->ir hasta plugins 
 ```js
 sudo wget https://bitbucket.org/xnatdev/dicom-query-retrieve/downloads/dicom-query-retrieve-1.0.1-xpl.jar
