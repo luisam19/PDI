@@ -40,10 +40,16 @@ Cada plugin está empaquetado en su propio contenedor que puede ser implementado
 * Se pueden definir los comandos para ejecución del contenedor en la plataforma XNAT
 
 
-Correr XNAT en una máquina virtual
+## Correr XNAT en una máquina virtual
 1. Descargar virtual box
 2. Descargar vagrant 
 [vagrantfile](https://github.com/luisam19/PDI/blob/main/Vagrantfile) 
+
+**Nota:** Se utilizaron puertos especificos debido a las especificaciones que solicitaba. En caso de tener un puerto que ya este escuchando deshabilitar. 
+
+<img src= "images/464d6c9bca004404719b629b00956e71aa578f4a88d28f8eeeb68a3af001b444.png">  
+
+
 3. Correr en la ruta donde tiene el vagrantfile las siguientes líneas: 
  ```js 
  vagrant up 
@@ -62,13 +68,15 @@ sudo apt install gradle
 8. correr los primeros pasos de la guía de la instalación Aura 
 ```js
 // clonar repositorio
-git clone https://github.com/NrgXnat/xnat-docker-compose 
-cd xnat-docker-compose
-git checkout features/dependency-mgmt
+$ git clone https://github.com/NrgXnat/xnat-docker-compose 
+$ cd xnat-docker-compose
+$ git checkout features/dependency-mgmt
 // Crear copia de archivo de configuración
-cp default.env myProps.env
+$ cp default.env myProps.env
+$ ./gradlew composeBuild composeUp
+$ ./gradlew composeDown //Recomendación: siempre bajar los servicios 
 // Lanzar especificando entorno y archivo de manifiesto
-sudo ./gradlew -PenvFile=myProps.env -Pmanifest=manifest-1.8.2.json fullStackComposeBuild
+$ ./gradlew -PenvFile=myProps.env -Pmanifest=manifest-1.8.2.json fullStackComposeBuild fullStackComposeUp
 ```
 9. 
 ```js 
@@ -78,6 +86,39 @@ sudo docker-compose up -d
 ```js
 sudo wget https://bitbucket.org/xnatdev/dicom-query-retrieve/downloads/dicom-query-retrieve-1.0.1-xpl.jar
 ```
+11. Dirigirse al `localhost` en el servidor que este usando 
+
+**user:** admin
+**password:** admin
+
+**Configurar los receptores DICOM SCP**
+- Ir a Administer/Site Administration/DICOM SCP Receivers
+- Clic en New DICOM SCP Receiver
+- Ingresar la siguiente información: 
+AE Title: XDQR
+Port: 8104
+Custom Processing: Enabled
+Identifier: dqrObjectIdentifier 
+- Clic en New DICOM SCP Receiver para crear otro receptor
+- Ingresar la siguiente información: 
+AE Title: XNAT
+Port: 8144
+Custom Processing: Disabled
+Identifier: dicomObjectIdentifier (Default)
+**Configurar nodo DICOM para ORTHANC**
+- Ir a Administer/Plugin Settings/DRQ Settings
+- Clic en Add New DICOM AE
+- Ingresar la siguiente información: 
+AE Title: ORTHANC
+Host: IP
+Label: ORTHANC
+Port: 4242
+Queryable: yes
+Default Q/R AE: yes
+Storable: yes
+Default Storage AE: yes
+- Clic en ping para verificar la conexión
+
 
 
 

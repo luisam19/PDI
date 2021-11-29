@@ -23,9 +23,27 @@ Vagrant.configure("2") do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # NOTE: This will enable public access to the opened port
-   config.vm.network "forwarded_port", guest: 8080, host: 5656
-   config.vm.network "forwarded_port", guest: 3306, host: 3308
-   config.vm.network "forwarded_port", guest: 80, host: 1235
+  #config.vm.network "forwarded_port", guest: 8080, host: 5656
+   #config.vm.network "forwarded_port", guest: 3306, host: 3308
+   #config.vm.network "forwarded_port", guest: 80, host: 1235
+   
+   # traefik
+   config.vm.network "forwarded_port", guest: 80, host: 80
+   config.vm.network "forwarded_port", guest: 8080, host: 8080
+  # xnat-web
+   config.vm.network "forwarded_port", guest: 8001, host: 8001
+   config.vm.network "forwarded_port", guest: 8144, host: 8144
+   config.vm.network "forwarded_port", guest: 8104, host: 8104
+  # xnat-activemq
+  config.vm.network "forwarded_port", guest: 61616, host: 61616
+  config.vm.network "forwarded_port", guest: 8161, host: 8161
+  # xnat-pacs
+  config.vm.network "forwarded_port", guest: 4242, host: 4242
+  # otros
+   config.vm.network "forwarded_port", guest: 5432, host: 5432
+   config.vm.network "forwarded_port", guest: 42, host: 42
+   config.vm.network "forwarded_port", guest: 8042, host: 8042
+ 
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
@@ -57,7 +75,7 @@ Vagrant.configure("2") do |config|
   # vb.customize ["modifyvm", :id, "--accelerate3d", "off"]
   #
   #   # Customize the amount of memory on the VM:
-     vb.memory = "1024"
+     vb.memory = "4096"
 	 vb.cpus = "2"
      end
   #
