@@ -30,8 +30,6 @@ Nace el atomo, que no se puede dividir más. Casi 2000 años que no se sabía a 
 <img src="images/b382a0f7416498a07a5739a959eb7561bb761360b99f36228356ac1e17aa5d0e.png" >
 </center>
 
-
-
 1. La corriente en el cátodo libera electrones por excitación térmica
 2. Esos electrones son acelerados hacia el ánodo por un voltaje entre en ánodo y cátodo. 
 3. Interacción con el anodo, generando los rayos X
@@ -156,7 +154,7 @@ La dosis de radiación no se puede disminuir de manera arbitraria ya que esto pu
 
 ### Equipo
 
-* Tubo de rayos-X
+* Tubo de rayos-X : radiaciones ionizantes
 * colimador
 * detector
 

@@ -6,3 +6,4 @@
 - [DICOM- parte 1](https://luisam19.github.io/PDI/Clase02)
 - [XNAT](https://luisam19.github.io/PDI/Clase03)
 - [Formación de la imagen por rayos-X](https://luisam19.github.io/PDI/Clase04)
+- [Tomografía computarizada](https://luisam19.github.io/PDI/Clase05)

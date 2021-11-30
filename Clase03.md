@@ -43,18 +43,20 @@ Cada plugin está empaquetado en su propio contenedor que puede ser implementado
 ## Correr XNAT en una máquina virtual
 1. Descargar virtual box
 2. Descargar vagrant 
-[vagrantfile](https://github.com/luisam19/PDI/blob/main/Vagrantfile) 
 
 **Nota:** Se utilizaron puertos especificos debido a las especificaciones que solicitaba. En caso de tener un puerto que ya este escuchando deshabilitar. 
 
 <img src= "images/464d6c9bca004404719b629b00956e71aa578f4a88d28f8eeeb68a3af001b444.png">  
 
-
-3. Correr en la ruta donde tiene el vagrantfile las siguientes líneas: 
+3. Correr en en carpeta las siguientes líneas en una terminal: 
  ```js 
+ vagrant init 
  vagrant up 
- js Vagrant ssh 
+ vagrant ssh 
  ```
+Modificar el vagrantfile con los puertos que necesita XNAT, asignarle 4GB para la máquina virtual
+[vagrantfile](https://github.com/luisam19/PDI/blob/main/Vagrantfile) 
+
 4. instalar docker en ubuntu
 seguir los pasos: <https://docs.docker.com/engine/install/ubuntu/>
 5. Instalar docker compose
@@ -95,28 +97,29 @@ sudo wget https://bitbucket.org/xnatdev/dicom-query-retrieve/downloads/dicom-que
 - Ir a Administer/Site Administration/DICOM SCP Receivers
 - Clic en New DICOM SCP Receiver
 - Ingresar la siguiente información: 
-AE Title: XDQR
-Port: 8104
-Custom Processing: Enabled
-Identifier: dqrObjectIdentifier 
+    * AE Title: XDQR
+    * Port: 8104
+    * Custom Processing: Enabled
+    * Identifier: dqrObjectIdentifier 
 - Clic en New DICOM SCP Receiver para crear otro receptor
 - Ingresar la siguiente información: 
-AE Title: XNAT
-Port: 8144
-Custom Processing: Disabled
+    * AE Title: XNAT
+    * Port: 8144
+    * Custom Processing: Disabled
+
 Identifier: dicomObjectIdentifier (Default)
 **Configurar nodo DICOM para ORTHANC**
 - Ir a Administer/Plugin Settings/DRQ Settings
 - Clic en Add New DICOM AE
 - Ingresar la siguiente información: 
-AE Title: ORTHANC
-Host: IP
-Label: ORTHANC
-Port: 4242
-Queryable: yes
-Default Q/R AE: yes
-Storable: yes
-Default Storage AE: yes
+    * AE Title: ORTHANC
+    * Host: IP
+    * Label: ORTHANC
+    * Port: 4242
+    * Queryable: yes
+    * Default Q/R AE: yes
+    * Storable: yes
+    * Default Storage AE: yes
 - Clic en ping para verificar la conexión
 
 
