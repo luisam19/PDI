@@ -7,10 +7,15 @@ Fecha: 23 Noviembre 2021
 * Orientada a la ejecución de investigación con imágenes médicas
 * Importar, almacenar, procesar y distribuir imágenes y otro tipo de información del estudio de manera segura. 
 
-![picture 1](images/ac782247633dfa43b26d65b0c558ec2d528db199c66d13201abd01bb8e04856a.png)  
+<center>
+<img src= "images/ac782247633dfa43b26d65b0c558ec2d528db199c66d13201abd01bb8e04856a.png"> 
+</center>
+
 
 ### Componentes de XNAT
-![picture 2](images/72a50d5d587196744824e66bfdb5477aa8505feed84e49ac31fb86696389363d.png)  
+<center>
+<img src= "images/72a50d5d587196744824e66bfdb5477aa8505feed84e49ac31fb86696389363d.png"> 
+</center>
 
 * Busqueda y exploración de grandes datasets. Permite almacenar, navegar y consultar datos
 
@@ -20,12 +25,14 @@ Fecha: 23 Noviembre 2021
 ### DICOM SCP Receiver
 
 Una ocpión para enviar datos desde un scanner a XNAT
-
-![picture 3](images/e9c7e9335cc8a1aa7ac18b17c39c681af95c319dfb00e66bff89e7d591a3469a.png)  
+<center>
+<img src= "images/e9c7e9335cc8a1aa7ac18b17c39c681af95c319dfb00e66bff89e7d591a3469a.png">
+</center>
 
 Se le vincula un proyecto, es como una carpeta temporal, y se redirige a los proyectos propios. 
-
-![picture 4](images/85c155c27e77851782aca56ac1f2c794ee4f2a2ef70beba7ef934ca622af5f7e.png)  
+<center>
+<img src= "images/85c155c27e77851782aca56ac1f2c794ee4f2a2ef70beba7ef934ca622af5f7e.png">  
+</center>
 
 ### Plugins
 
@@ -45,8 +52,9 @@ Cada plugin está empaquetado en su propio contenedor que puede ser implementado
 2. Descargar vagrant 
 
 **Nota:** Se utilizaron puertos especificos debido a las especificaciones que solicitaba. En caso de tener un puerto que ya este escuchando deshabilitar. 
-
+<center>
 <img src= "images/464d6c9bca004404719b629b00956e71aa578f4a88d28f8eeeb68a3af001b444.png">  
+</center>
 
 3. Correr en en carpeta las siguientes líneas en una terminal: 
  ```js 
