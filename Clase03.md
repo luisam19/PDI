@@ -129,7 +129,7 @@ Identifier: dicomObjectIdentifier (Default)
     * Storable: yes
     * Default Storage AE: yes
 - Clic en ping para verificar la conexión
-_________________________
+_________________________________________________
 ### Controlar las instancias
 
 1. Bajar las instancias
@@ -164,7 +164,7 @@ ___________________________________________
 la distribución Ubuntu 18.04 LTS.
 - Configurar Docker Desktop siguiendo las siguientes [instrucciones](https://docs.docker.com/desktop/windows/wsl/) .
 
-_________________________
+___________________________________________
 ### Configuración de JAVA
 - Para Ubuntu 18.04 LTS.
 ```js 
