@@ -6,13 +6,13 @@ Los rayos-X fue la primera técnica de imagenología y se sigue utilizando.
 
 La tomografía computarizada produce secciones transversales que describen la atenuación que genera el tejido en los rayos-X.
 
-Un conjunto de emisiones en líneas de rayos-X cubren el FOV para diferentes ángulos entregango los perfiles de absorción para todos lo ángulos muestreados. 
+Un conjunto de emisiones en líneas de rayos-X cubren el FOV para diferentes ángulos entregando los perfiles de absorción para todos lo ángulos muestreados. 
 <center>
 <img src="images/4d91abc787bdc2eeb0723cb159f4f04647334320ef4fc4ba58bf5346d8c1df94.png">
 </center>
 Al realizar una sola sección, no es interpretable. Pequeños tubos de rayos catódicos emitiendo de forma catalizada. 
 
-Los elementos básicos para la tomografía computarizada están dados por el descrubrimiento de los rayos-X y por la formulación de Johann Radon que permite la reconstrucción de una señal a partir de sus proyecciones. 
+Los elementos básicos para la tomografía computarizada están dados por el descubrimiento de los rayos-X y por la formulación de Johann Radon que permite la reconstrucción de una señal a partir de sus proyecciones. 
 
 En rayos X existen interacciones atomicas y macroscopicas que atenuan dependiendo de la interacción. 
 
@@ -72,9 +72,9 @@ Ejemplo para un solo punto:
 ## Reconstrucción: retroproyección
 * La reconstrucción de la imagen desde perfiles de proyección resultará de la aplicación inversa de la transformada de Radon
 * La absorción en cada píxel es desconocida pero cada haz paralelo entrega lo que sería la solución para un sistema de múltiples ecuaciones
-* El número de angulos es límitado por los 512x512 
+* El número de angulos es limitado por los 512x512 
 * Suelen haber más pixeles que direcciones de proyección por lo que se suelen de utilizar métodos iterativos de aproximación (retroproyección filtrada)
-* Para corregir el efecto de la retroproyección sobre los pixeles circundantes a pixeles altamente absorberntes se utiliza una combinación de filtros: retroproyección filtrada. Se utilizan también en PET. 
+* Para corregir el efecto de la retroproyección sobre los pixeles circundantes a pixeles altamente absorbentes se utiliza una combinación de filtros: retroproyección filtrada. Se utilizan también en PET. 
 
 ## Imagenología en tres dimensiones
 
@@ -86,7 +86,7 @@ Ejemplo para un solo punto:
 
 **TC helicoidal**
 
-**Tomografía multicorte**
+**Tomografía multi-corte**
 * En los equipos de tomografía actual el arreglo de detectores consiste de múltiples dilas de detectores de manera que es posible realizar múltiples cortes de manera simultanea en un solo giro del tubo del rayo-X.
 * El obtener más corte por unidad de tiempo permite reducir la cantidad de movimiento mejorando los estudios 
 

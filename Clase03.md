@@ -86,7 +86,7 @@ $ cp default.env myProps.env
 $ ./gradlew composeBuild composeUp
 $ ./gradlew composeDown //Recomendación: siempre bajar los servicios 
 // Lanzar especificando entorno y archivo de manifiesto
-$ ./gradlew -PenvFile=myProps.env -Pmanifest=manifest-1.8.2.json fullStackComposeBuild fullStackComposeUp
+$ ./gradlew -PenvFile=default.env -Pmanifest=sample.manifest-XNAT-ML-18 fullStackComposeBuild fullStackComposeUp
 ```
 9. 
 ```js 
@@ -129,7 +129,56 @@ Identifier: dicomObjectIdentifier (Default)
     * Storable: yes
     * Default Storage AE: yes
 - Clic en ping para verificar la conexión
+_________________________
+### Controlar las instancias
 
+1. Bajar las instancias
+```js
+$ docker-compose down
+```
+2. Bajar las instancias y eliminar las imágenes construidas
+```js
+$ docker-compose down --rmi all
+```
+3. Los pasos anteriores se pueden realizar utilizando los siguientes comandos con gradlew
+```js
+$ ./gradlew composeDown
+$ ./gradlew composeDownForced
+```
+4. Subir las imágenes nuevamente
+```js
+$ docker-compose up -d
+$ ./gradlew composeUp
+$ ./gradlew fullStackComposeUp
+```
+5. Reiniciar
+```js
+$ docker-compose restart xnat-web
+```
+___________________________________________
+### Instalación Docker en Windows 10 con WSL
+1. Revisar guía oficial de instalación: https://docs.docker.com/desktop/windows/wsl/
+2. Prerequisitos
+- Habilitar WSL 2 en Windows siguiendo las siguientes [instrucciones](https://docs.microsoft.com/en-us/windows/wsl/install)
+- Descargar e instalar el paquete de actualización de kernel de linux siguiendo las siguientes [instrucciones](https://docs.microsoft.com/en-us/windows/wsl/install). Instalar
+la distribución Ubuntu 18.04 LTS.
+- Configurar Docker Desktop siguiendo las siguientes [instrucciones](https://docs.docker.com/desktop/windows/wsl/) .
 
+_________________________
+### Configuración de JAVA
+- Para Ubuntu 18.04 LTS.
+```js 
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+java -version
+```
+Luego exportar la ruta
+```
+export JAVA_HOME=path_to_java_home (debe ser algo similar a esto: &quot;/usr/lib/jvm/open-jdk&quot;)
+```
+Verificar la existencia de la ruta
+```js
+echo ${JAVA_HOME}
+```
 
 

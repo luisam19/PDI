@@ -21,7 +21,7 @@ Nace el atomo, que no se puede dividir más. Casi 2000 años que no se sabía a 
 
 * El espectro electromagnético puede ser dividio en múltiples bandas de frecuencia.  Desde las ondas de radio hasta los rayos gamma (de alta frecuencia usados en aplicaciones de medicina nuclear). 
 
-* La longitud de los rayos-X se encuentra en el rango de los Angtrom y su energía esta en el orden de los KeV
+* La longitud de los rayos-X se encuentra en el rango de los Angstrom y su energía esta en el orden de los KeV
 
 ### Generación
 * Los rayos-X son generados con un tubo de rayos-X que consiste en un rubo al vació con un cátodo y un ánodo
@@ -39,14 +39,14 @@ Nace el atomo, que no se puede dividir más. Casi 2000 años que no se sabía a 
 </center>
 
 * A menor longitud de onda mayor radiación
-* Los electrodos cuando se aceleran se dan contra el anodo. La velocidad de frenado se da cuando los electones pasan cerca .... El espectro es continuo. Experimenta mayor decremento de la velocidad. 
+* Los electrodos cuando se aceleran se dan contra el anodo. La velocidad de frenado se da cuando los electrones pasan cerca .... El espectro es continuo. Experimenta mayor decremento de la velocidad. 
 * A mayor voltaje salen fotones de más energía.
 * La relación caracteristica se da, porque algunos de esos electrones tienen tanta energía que son capaces de desprenderse del nucleo, se libera un fotón que es altamente energico. 
 * Los electrones más alejados del nucleo son más dificiles de desprender, por el contrario los más cercanos al núcleo es más difíciles de desprender. 
 * Los picos son discretizados, dado que la energía esta cuantizada. 
 * Radiación carac: La energía de un electrón incidente puede liberar un electrón que se encuentre cercano al núcleo dejando un "agujero". Entre más cercano este un electron al nucleo menor es su energía 
 
-* La energía, espresada en eV y la longitud de onda para este tipo de radiación esta limitada por:
+* La energía, expresada en eV y la longitud de onda para este tipo de radiación esta limitada por:
 
 <center>
 <img src="images/3edfae641865699214d1cbeb066187138ed1292d41ca318384dd80e8cbc7ea48.png" >
@@ -54,7 +54,7 @@ Nace el atomo, que no se puede dividir más. Casi 2000 años que no se sabía a 
 
 ### Parámetros equipo rayos-X
 
-* La cantidad de electones emitidos. Depende de la corriente en el cátodo y el tiempo de generación (típicamente de 1 a 100 mAs)
+* La cantidad de electrones emitidos. Depende de la corriente en el cátodo y el tiempo de generación (típicamente de 1 a 100 mAs)
 * El voltaje entre el ánodo y el cátodo. Determina con que energía llegarán los electrones al ánodo.
 * La energía total incidente en el ánodo. Depende de los dos factores anteriores y se expresa en joules.  Se libera en forma de calor.
 
@@ -71,7 +71,7 @@ Los fotones con energías menores a 13.6 KeV son *no ionizantes*, tan solo son c
 
 2.2 El cual libera un nuevo fotón con la misma energía pero viajando en una dirección diferente 
 
-* Las mamografías son de menor calidad, menor resolución ya que no se puede . Sucede a energías menores de 30 KeV(dentro del rango de la mamografía)
+* Las mamografía son de menor calidad, menor resolución ya que no se puede . Sucede a energías menores de 30 KeV(dentro del rango de la mamografía)
 
 3. **Absorción fotoeléctrica:**
 
@@ -86,8 +86,8 @@ Los fotones con energías menores a 13.6 KeV son *no ionizantes*, tan solo son c
 5. **Producción de pares**
 No se observa en imagenología ya que tiene valores de 1.02 MeV
 
-* Puede convertirse en un positrón y un electrón
-* El positrón al encontrarse con un electrón produce un par de fotones. 
+* Puede convertirse en un positron y un electrón
+* El positron al encontrarse con un electrón produce un par de fotones. 
 
 <center>
 <img src="images/b96f037e1d9bc499eb5d07c3483b31565595d6e52ed8620ff23aaeb81a85cda7.png" >
@@ -100,14 +100,14 @@ Para ciertos niveles de energía predomina el efecto fotoeléctrico. Es porque s
 
 Aunque la naturaleza de las interacciones es estadística, a nivel macroscópico se visualiza un cambio en la intensidad. 
 
-De acuerdo al tipo de material va tener mayor rebelación. cuando queda blanca es porque no hay mayor rebelación. Se asume que el hueso tiene mayor atenuación que por ejemplo el aire. 
+De acuerdo al tipo de material va tener mayor revelación. cuando queda blanca es porque no hay mayor revelación. Se asume que el hueso tiene mayor atenuación que por ejemplo el aire. 
 
-Esta ley aplica solo cuando el mMaterial es homogeneo. Los rayos-X no son hómogeneos. 
+Esta ley aplica solo cuando el mMaterial es homogeneo. Los rayos-X no son homogeneos. 
 
 La ecuación puede ser generalizada así:
 Los haces de rayos-X en la vida real tienen fotones en todo un espectro de energía de esta manera la ecuación es:
 
-Depende del kilovoltaje que haya en el tubo de rayos catódicos. El haz de radiación de mayor keV son de menor energía y no logran atraversar. 
+Depende del kilo-voltaje que haya en el tubo de rayos catódicos. El haz de radiación de mayor keV son de menor energía y no logran atravesar. 
 
 ### Detectores de rayos-X
 
@@ -116,7 +116,7 @@ Las peliculas fotográficas son un medio poco eficiente para capturar rayos-X (S
 De esta manera, para obtener una placa aceptable se debería aportar dosis de radiación en cantidades inaceptables.
 
 Es por esto que se suele utilizar un intensificador.
-* Al llegar un fotón a un intensificador el electrón que absorbe su energía exita otros electrones para que alcanecen niveles de energía mayores.
+* Al llegar un fotón a un intensificador el electrón que absorbe su energía exista otros electrones para que alcancen niveles de energía mayores.
 
 Cuando estos electrones vuelven a sus estados energéticos de base se produce un haz de luz visible llamado centelleo, fenomeno que aumenta la relación de energía en el sistema. 
 
@@ -124,21 +124,21 @@ Cuando estos electrones vuelven a sus estados energéticos de base se produce un
 * Los materiales que componen el intensificados poseen una propiedad.
 
 **Dentro de la luminiscencia tenemos:**
-* Fluorescencia: El material comienza a emitir luz una vez ha sido excitado y finzaliza la emisión de la misma tan pronto se retira la excitación
+* Fluorescencia: El material comienza a emitir luz una vez ha sido excitado y finalizar la emisión de la misma tan pronto se retira la excitación
 * Fosforescencia: Es la emisión de luz luego de que se elimina el haz excitador. Este efecto es indeseable en radiografía ya que genera artefactos en las imágenes.
 
-Un caso especial de fosforescencia es cuando parte de la energía queda en el material y puede ser extraída mediante láser. Este fenomeno se llama luminiscencia fotoestimulada y se utilia en radiogragía digital.
+Un caso especial de fosforescencia es cuando parte de la energía queda en el material y puede ser extraída mediante láser. Este fenomeno se llama luminiscencia fotoestimulada y se utiliza en radiografía digital.
 
 Cuando los rayos-X son absorbidos por el fósforo, los electrones son llevados de la capda de valencia a la capa de conducción. 
 
 **Detectores para sistemas digitales**
-* La energía puede ser liberada mediante escaneo píxel a píxel.
+* La energía puede ser liberada mediante escaneo pixel a pixel.
 
-### Calidad de la imágen
+### Calidad de la imagen
 
 1. **Resolución:** depende de múltiples factores.
 * El tamaño del punto focal
-* El paciente. Los pacientes delgados generan más dispersión de rayor-X, deteriorando la resolución de la imágen. Para reducir este efecto se utilia un colimador. 
+* El paciente. Los pacientes delgados generan más dispersión de rayos-X, deteriorando la resolución de la imagen. Para reducir este efecto se utiliza un colimador. 
 * Las propiedades de la pantalla fluorescente
 * La resolución de la película
 * Las características del intensificador y del sistema de digitalización
@@ -166,7 +166,7 @@ La dosis de radiación no se puede disminuir de manera arbitraria ya que esto pu
 
 * Incluso a niveles mínimos de radiación de rayos-X pueden generar muertes de células. 
 Estas muertes no implican ningún problema para la persona.
-* Los problemas se presentan ante la probabilidad de cambios en el material genético de las células que puedan llevar a la aparición de neoplasias.El cáncer es un problema de reprodución formando una neoplasia. 
+* Los problemas se presentan ante la probabilidad de cambios en el material genético de las células que puedan llevar a la aparición de neoplasias.El cáncer es un problema de reproducción formando una neoplasia. 
 * No se conoce una dosis de radiación a la cual la probabilidad de aparición de células cancerosas pueda ser cero.
 * Alta dosis conllevan a un aumento de la probabilidad. 
 * Efectos estocásticos de la radiación: La cantidad de radiación determina la probabilidad de ocurrencia más no la severidad. 
