@@ -144,7 +144,9 @@ Una vez descargados archivos DICOM, abrir `dicombrowser`.
 
 **Nota**: Si no existe este atributo, ir a `Edit/Add new attribute` y colocar los puertos (0032,4000) y colocar el correspondiente value. 
 * `file/send`
+
     - Enviar a **XNAT**
+
      <img src="images/c211d04eb504c5be0ef1662973e471ddb159f25e046bb8192795a31e1fba4d25.png">
 
     - Enviar a **ORTHANC** 
@@ -156,7 +158,7 @@ Una vez descargados archivos DICOM, abrir `dicombrowser`.
         - **user**: orthanc
 
         - **password**: orthanc
-        
+
         Una vez los archivos enviados se pueden visualizar de la siguiente forma:
 
         <img src="images/0bca79edaa58885f972f1d2c4a28125409e01ff28d0c4d47cd59f7b98325245e.png"> 
