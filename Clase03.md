@@ -147,7 +147,7 @@ Una vez descargados archivos DICOM, abrir `dicombrowser`.
 
     - Enviar a **XNAT**
 
-     <img src="images/c211d04eb504c5be0ef1662973e471ddb159f25e046bb8192795a31e1fba4d25.png">
+        <img src="images/c211d04eb504c5be0ef1662973e471ddb159f25e046bb8192795a31e1fba4d25.png">
 
     - Enviar a **ORTHANC** 
 
