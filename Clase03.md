@@ -129,6 +129,41 @@ Identifier: dicomObjectIdentifier (Default)
     * Storable: yes
     * Default Storage AE: yes
 - Clic en ping para verificar la conexión
+
+12. Crear proyecto y asociar investigador/a principal, añadir descripción de proyecto. 
+
+13. Descargar datos DICOM descargados en la web con imágenes médicas de su interés.
+
+14. Utilizar la herramienta [dicombrowser](https://download.xnat.org/dicombrowser/) para modificar el atributo StudyComments (0032,4000), asociar nombre de proyecto
+**Nota**: Es necesario tener descargado Java [install java](https://www.oracle.com/java/technologies/downloads/).
+
+Una vez descargados archivos DICOM, abrir `dicombrowser`.
+* Open file
+* Buscar el atributo `study comments` y cambiar el value:
+    - Project: ID proyecto , Subject: Sujeto-000 ,Session: Sujeto-000
+
+**Nota**: Si no existe este atributo, ir a `Edit/Add new attribute` y colocar los puertos (0032,4000) y colocar el correspondiente value. 
+* `file/send`
+    - Enviar a **XNAT**
+     <img src="images/c211d04eb504c5be0ef1662973e471ddb159f25e046bb8192795a31e1fba4d25.png">
+
+    - Enviar a **ORTHANC** 
+
+        <img src="images/8bc08425812c9f6af025476ab38909e02b66f935174b57f9f77fe6272d753e27.png">
+
+        - Ir a la ruta ``127.0.0.1\pacs`
+
+        - **user**: orthanc
+
+        - **password**: orthanc
+        
+        Una vez los archivos enviados se pueden visualizar de la siguiente forma:
+
+        <img src="images/0bca79edaa58885f972f1d2c4a28125409e01ff28d0c4d47cd59f7b98325245e.png"> 
+
+
+
+
 _________________________________________________
 ### Controlar las instancias
 
