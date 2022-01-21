@@ -5,7 +5,7 @@ La segmentación de imágenes médicas es el proceso de detección automática o
 Segmentación de tumor cerebral
 <center>
 <img src="images/37d6d1134d4c73e770b0aafa1b0a726348b624ce296b8478b3206382d3e4cef2.png">
-<center/>
+</center>
 
 Las imágenes médicas presentan alta variabilidad debido a:
 * Anatomía humana
@@ -19,7 +19,7 @@ Segmentación de riñones para detección de tumores utilizando redes neuronales
 
 <center>
 <img src="images/8e7f6afbc055b8cccbe35c43cb08f88cbc10e5fff2321a52d566f9b64930e925.png">
-<center/>  
+</center>  
 
 
 Segmentación de riñones para detección de tumores utilizando redes neuronales convolucionales y deep learning. 
@@ -37,13 +37,13 @@ Empresa que entrega reportes volumétricos.
 
 <center>
 <img src="images/53d8107a5e095d59b686ea3edb7ee46566da1e07e7124d4cf401fdc66d907a3a.png">
-<center/>  
+</center>  
 
 2. Métodos suaves, es un enfoque moderno basado en la idea de la aproximación, la incertidumbre y la flexibilidad. 
 
 <center>
 <img src="images/6c37fa837d533fdeeee3c3677b9bbfbd731cda01cf789581b912c7483a3e7850.png">
-<center/> 
+</center> 
 
 3. **Métodos basados en modelos**:
 Requieren un contorno o forma inicial que posteriormente se actualiza mediante iteraciones a a la forma final esperada de la forma aproximada (2D o 3D)
@@ -63,7 +63,7 @@ El primero es un método muy bueno y el segundo también.
 
 <center>
 <img src="images/5436509b245268b3bd97b75ec64caf8fbb957ae2afd8dcfd9f398e54cf79c8c8.png">
-<center/>  
+</center>  
 
 Al encontrar un cambio de energía evita que salga del contorno, y evita que salga 
 
@@ -111,7 +111,7 @@ Consiste en la ejecución de una dilatación seguida de una erosión. Se utiliza
 
 <center>
 <img src="images/fb254d71310c952d9fae6dc82a1e0471d54e648a87a43514b2db7d60798c79ce.png">
-<center/>  
+</center>  
 
 ## Ejemplo práctico
 Dataset 1
