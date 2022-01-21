@@ -3,8 +3,9 @@
 La segmentación de imágenes médicas es el proceso de detección automática o semiautomática de límites dentro de una imagen 2D o 3D
 
 Segmentación de tumor cerebral
-![picture 2](images/37d6d1134d4c73e770b0aafa1b0a726348b624ce296b8478b3206382d3e4cef2.png)  
-
+<center>
+<img src="images/37d6d1134d4c73e770b0aafa1b0a726348b624ce296b8478b3206382d3e4cef2.png">
+<center/>
 
 Las imágenes médicas presentan alta variabilidad debido a:
 * Anatomía humana
@@ -16,7 +17,9 @@ El resultado de la segmentación se puede utilizar para obtener más informació
 Segmentación de riñones para detección de tumores utilizando redes neuronales convolucionales y deep learning.
 
 
-![picture 1](images/8e7f6afbc055b8cccbe35c43cb08f88cbc10e5fff2321a52d566f9b64930e925.png)  
+<center>
+<img src="images/8e7f6afbc055b8cccbe35c43cb08f88cbc10e5fff2321a52d566f9b64930e925.png">
+<center/>  
 
 
 Segmentación de riñones para detección de tumores utilizando redes neuronales convolucionales y deep learning. 
@@ -32,11 +35,15 @@ Empresa que entrega reportes volumétricos.
 ## Métodos
 1. Métodos convencionales o entrada manual, son pocos flexibles
 
-![picture 3](images/53d8107a5e095d59b686ea3edb7ee46566da1e07e7124d4cf401fdc66d907a3a.png)  
+<center>
+<img src="images/53d8107a5e095d59b686ea3edb7ee46566da1e07e7124d4cf401fdc66d907a3a.png">
+<center/>  
 
 2. Métodos suaves, es un enfoque moderno basado en la idea de la aproximación, la incertidumbre y la flexibilidad. 
 
-![picture 4](images/6c37fa837d533fdeeee3c3677b9bbfbd731cda01cf789581b912c7483a3e7850.png)  
+<center>
+<img src="images/6c37fa837d533fdeeee3c3677b9bbfbd731cda01cf789581b912c7483a3e7850.png">
+<center/> 
 
 3. **Métodos basados en modelos**:
 Requieren un contorno o forma inicial que posteriormente se actualiza mediante iteraciones a a la forma final esperada de la forma aproximada (2D o 3D)
@@ -54,7 +61,9 @@ Ejemplo:
 
 El primero es un método muy bueno y el segundo también. 
 
-![picture 5](images/5436509b245268b3bd97b75ec64caf8fbb957ae2afd8dcfd9f398e54cf79c8c8.png)  
+<center>
+<img src="images/5436509b245268b3bd97b75ec64caf8fbb957ae2afd8dcfd9f398e54cf79c8c8.png">
+<center/>  
 
 Al encontrar un cambio de energía evita que salga del contorno, y evita que salga 
 
@@ -89,15 +98,20 @@ Permiten realizar cuatro operaciones básicas:
 1. Erosión
 Para una imagen I y vecindario H, la operación se representa como I /theta H
 Consiste en la eliminación de todos los pixels del objeto en cuyo vecindario haya al menos un píxel que pertenezca al fondo. Evaluá que tantos vecinos no son de su clase y lo elimina. 
+
 2. Dilatación
 Ampliar la zona del objeto. No logra abarcar toda la región de interés, Se usa para cerrar agujeros. 
 
 3. Apertura
 Consiste en la ejecución de una erosión seguida de una dilatación. Se utiliza para eliminar elementos salientes, es decir, suavizar los contornos de un objeto. 
 Esta representada por: 
+
 4. Cierre
 Consiste en la ejecución de una dilatación seguida de una erosión. Se utiliza para rellenar agujeros.
-![picture 6](images/fb254d71310c952d9fae6dc82a1e0471d54e648a87a43514b2db7d60798c79ce.png)  
+
+<center>
+<img src="images/fb254d71310c952d9fae6dc82a1e0471d54e648a87a43514b2db7d60798c79ce.png">
+<center/>  
 
 ## Ejemplo práctico
 Dataset 1
