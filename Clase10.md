@@ -1,6 +1,7 @@
 # Segmentación y operaciones morfológicas 
 
 Fecha: 20 de enero 2022
+
 Autor: Luisa María Zapata Saldarriaga 
 
 # Segmentación
@@ -173,6 +174,7 @@ Modelos de aprendizaje automático, permiten identificar patrones complejos a pa
 Los métodos híbridos combinan diferentes técnicas que pueden provenir de varios grupos y categorías de métodos utilizados en la segmentación.  
 
 ___________________________________________________
+
 # Operaciones morfológicas 
 
 Los operadores morfológicos permiten manipular la forma de las imágenes. 
@@ -189,30 +191,65 @@ Para una imagen `I` y vecindario `H`, la operación se representa como `I /theta
 
 Consiste en la eliminación de todos los pixels del objeto en cuyo vecindario haya al menos un píxel que pertenezca al fondo. **Evaluá que tantos vecinos no son de su clase y lo elimina**. 
 
-![picture 17](images/c95da05ab28851170a059a45bd1ea5b20d830ea5ea03f4b92ae2ee69e142e066.png)  
-
+<center>
+<img src="images/c95da05ab28851170a059a45bd1ea5b20d830ea5ea03f4b92ae2ee69e142e066.png">  
+</center>
 
 2. **Dilatación**
 
 Ampliar la zona del objeto. No logra abarcar toda la región de interés, Se usa para **cerrar agujeros pequeños**. 
 
-![picture 18](images/38c2605b59af85a9454a4d3352fde59effd4740f6aa59fdae4800ccfad530151.png)  
+<center>
+<img src="images/38c2605b59af85a9454a4d3352fde59effd4740f6aa59fdae4800ccfad530151.png">
+</center>
 
 3. **Apertura**
 Consiste en la ejecución de una erosión seguida de una dilatación. Se utiliza para eliminar elementos salientes, es decir, suavizar los contornos de un objeto. 
+
 Esta representada por: 
 
-![picture 20](images/8ebc6053cb7424ba8807e4cde81f428303be7249944a27be27435408f102b3c9.png)  
+<center>
+<img src="images/8ebc6053cb7424ba8807e4cde81f428303be7249944a27be27435408f102b3c9.png">  
+</center>
 
 4. **Cierre**
 Consiste en la ejecución de una dilatación seguida de una erosión. Se utiliza para **rellenar agujeros pequeños sin alterar el tamaño del objeto** o suavizar el contorno.
-![picture 19](images/bf87a97b89e7decfa6a9c4235f953c0c4051bd8368320be26f233096d8c9131a.png)  
 
+Esta representada por: 
+
+<center>
+<img src="images/bf87a97b89e7decfa6a9c4235f953c0c4051bd8368320be26f233096d8c9131a.png"> 
+</center>
+
+Primero dilatamos y luego erosionamos. 
 
 <center>
 <img src="images/fb254d71310c952d9fae6dc82a1e0471d54e648a87a43514b2db7d60798c79ce.png">
 </center>  
 
-## Ejemplo práctico
-Dataset 1
+___________________________________________________
+
+## Ejemplo práctico en Slicer
+
+[Dataset 1]()
+
+Imagen CT de los pulmones
+
+* Usar la herramienta Segment Editor de Slicer
+* Utilizar el método de crecimiento a partir de semillas
+
+Segmentar 3 tejidos:
+* Pulmones
+* Vías aéreas
+* Otros tejidos
+
+[Dataset 2]()
+
+Imagen CT de los riñones
+
+* Usar la herramienta Robust Statistic Segmenter
+
+- Approximate volume: 150 ml,
+- Intensity homogeneity: 0.7,
+- Boundary smoothness: 0.4
 

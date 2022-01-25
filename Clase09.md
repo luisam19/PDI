@@ -1,6 +1,7 @@
 # FILTRADO Y REGISTRO DE IMÁGENES
 
 Fecha: 18 de enero 2022
+
 Autor: Luisa María Zapata Saldarriaga 
 
 # Filtrado
@@ -256,7 +257,7 @@ Flujo de trabajo
 * **Imágenes T1w**
     - Registrar  imagen de Sujeto B a imagen de sujeto A. 
 
-1. Cargar imágenes de (dataset 2)[]
+1. Cargar imágenes de [dataset 2]()
 2. Cambiar visualización a Four-up
 3. Cerrar aros
 4. Superponer *SubjectA_T1* sobre *SubjectA_T2* con un umbral 0.6.
