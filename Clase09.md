@@ -91,21 +91,21 @@ Para reconstrucción volumétrica, es más complejo visualizar los vasos y delim
 
 <center>
 
-**Imagen de RM original**
+Imagen de RM original
 
 <img src ="images/ee1edbee75b7e5cdf3756c6b618cd67265d4939ab6c980e8713a19ef77200bd9.png"> 
 </center>
 
 <center>
 
-**Imagen de RM filtrada con conductance=1 y 5 iteraciones**
+Imagen de RM filtrada con conductance=1 y 5 iteraciones
 
 <img src ="images/a4f370740682c5f238622797555d36f64f02956c9e6e1113412149a7adba2a21.png"> 
 </center>
 
 <center>
 
-**Reconstrucción volumétrica**
+Reconstrucción volumétrica
 
 <img src ="images/8d719620f013e0b678f8025911ab62c4bd8feed1b8aaa0baeacd4e91dcc93c72.png">
 </center>
@@ -176,15 +176,27 @@ Una imagen 3D tiene 6 grados de libertad:
 * 3 traslaciones
 * 3 rotaciones
 
-**Matriz de transformación traslación**
+<center>
+
+Matriz de transformación traslación
+
 <img src ="images/5b77dc54f96c84c18bc78952bf14124b74aa25c4d3b3455fcc68ff72eb9fd1a3.png">
+<center>
 
-**Rotación en x**
+
+<center>
+Rotación en x
+
 <img src ="images/3823233ebcc492db76b179211630a92812711d4402f3b418634f19d3f7b72990.png">  
+</center>
 
-**Rotación en y**
+
+<center>
+
+Rotación en y
 
 <img src ="images/6db9e9d416099dc18b9dd3be440a063a4d2b3d65be2b722967074d6c490cac02.png">  
+</center>
 
 ### 2. Transformación afín
 Una imagen 3D tiene 12 grados de libertad:
@@ -192,6 +204,7 @@ Una imagen 3D tiene 12 grados de libertad:
 * 3 rotaciones
 * 3 escalados
 * 3 skew (inclinar una imagen basada en paralelismo)
+
 <center>
 <img src ="images/23d292559c34ba1c68ca1be9b0592139e930dd72f35c2a20e0f79b28e93a170d.png"> 
 </center>
@@ -232,7 +245,8 @@ Durante un largo periodo de tiempo se adquieren cortes de una zona especifica de
 </center>
 
 ___________________________________________________
-**Ejemplo slicer Registro**
+
+## Ejemplo slicer Registro
 
 Flujo de trabajo 
 * **Sujeto A**
@@ -242,7 +256,7 @@ Flujo de trabajo
 * **Imágenes T1w**
     - Registrar  imagen de Sujeto B a imagen de sujeto A. 
 
-1. Cargar imágenes de dataset 2
+1. Cargar imágenes de (dataset 2)[]
 2. Cambiar visualización a Four-up
 3. Cerrar aros
 4. Superponer *SubjectA_T1* sobre *SubjectA_T2* con un umbral 0.6.
@@ -253,4 +267,5 @@ Flujo de trabajo
 9. Seleccionar las fases de registro rígido 6DOF y afín 12DOF. 
 10. Ejecutar
 
-`Se toma la imagen fija, la de mayor resolución o la que tiene mayor información de interés.` 
+
+**Nota**: `Se toma la imagen fija, la de mayor resolución o la que tiene mayor información de interés.` 
