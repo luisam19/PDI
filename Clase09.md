@@ -49,6 +49,7 @@ Filtro simple que consiste en reemplazar cada pixel de una imagen por la mediana
 <center>
 
 **Imagen filtrada**
+
 <img src ="images/9d4b9f1d15801974bfc987ceadf303f7acf1b1a2fcf8bcca6c6d3b34107d8c0b.png">
 </center>
 
@@ -56,6 +57,7 @@ Filtro simple que consiste en reemplazar cada pixel de una imagen por la mediana
 5. Asignar nombre a imagen de salida 
 
 ## Filtro Gaussiano
+
 <center>
 <img src ="images/2c6d19f789039699dfd14ded9723dde953ba0bbee8e220456befa8c6fc4a23b6.png">
 </center>
@@ -87,12 +89,15 @@ Para reconstrucción volumétrica, es más complejo visualizar los vasos y delim
 <center>
 
 **Imagen de RM original**
+
 <img src ="images/ee1edbee75b7e5cdf3756c6b618cd67265d4939ab6c980e8713a19ef77200bd9.png"> 
 
 **Imagen de RM filtrada con conductance=1 y 5 iteraciones**
+
 <img src ="images/a4f370740682c5f238622797555d36f64f02956c9e6e1113412149a7adba2a21.png"> 
 
 **Reconstrucción volumétrica**
+
 <img src ="images/8d719620f013e0b678f8025911ab62c4bd8feed1b8aaa0baeacd4e91dcc93c72.png">
 </center>
 
@@ -235,3 +240,5 @@ Flujo de trabajo
 8. Inicializar la transformación 
 9. Seleccionar las fases de registro rígido 6DOF y afín 12DOF. 
 10. Ejecutar
+
+Se toma la imagen fija, la de mayor resolución o la que tiene mayor información de interés. 
