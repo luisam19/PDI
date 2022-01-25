@@ -138,7 +138,8 @@ Establece correspondencia espacial entre los píxeles de la **imagen móvil** co
 
 Se aplica una transformación para que coincida con el espacio.
 
-</center>
+<center>
+
 <img src ="images/4178c9cd4ef6c2987b14e4191fd5e2668cccff83251f0c903c15d13267d4e99b.png"> 
 </center>
 
