@@ -192,10 +192,8 @@ Rotación en x
 </center>
 
 
+<center> Rotación en y</center>
 <center>
-
-Rotación en y
-
 <img src ="images/6db9e9d416099dc18b9dd3be440a063a4d2b3d65be2b722967074d6c490cac02.png">  
 </center>
 
