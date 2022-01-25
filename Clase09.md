@@ -219,7 +219,7 @@ No hay correspondencia durante toda la adquisición porque hubo un movimiento de
 Durante un largo periodo de tiempo se adquieren cortes de una zona especifica del cuerpo, se obtiene información del contraste.
 
 <center>
-<img src ="images/6d3e12fac7eae895e4acbcc46c885747a105d0b4c1203bb28785de78ddef92ce.png>  
+<img src ="images/6d3e12fac7eae895e4acbcc46c885747a105d0b4c1203bb28785de78ddef92ce.png">  
 </center>
 
 **Ejemplo slicer Registro**
