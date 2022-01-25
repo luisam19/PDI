@@ -1,5 +1,8 @@
 # FILTRADO Y REGISTRO DE IMÁGENES
 
+Fecha: 18 de enero 2022
+Autor: Luisa María Zapata Saldarriaga 
+
 # Filtrado
 ## 1. Definición: 
 
@@ -91,10 +94,16 @@ Para reconstrucción volumétrica, es más complejo visualizar los vasos y delim
 **Imagen de RM original**
 
 <img src ="images/ee1edbee75b7e5cdf3756c6b618cd67265d4939ab6c980e8713a19ef77200bd9.png"> 
+</center>
+
+<center>
 
 **Imagen de RM filtrada con conductance=1 y 5 iteraciones**
 
 <img src ="images/a4f370740682c5f238622797555d36f64f02956c9e6e1113412149a7adba2a21.png"> 
+</center>
+
+<center>
 
 **Reconstrucción volumétrica**
 
@@ -222,13 +231,15 @@ Durante un largo periodo de tiempo se adquieren cortes de una zona especifica de
 <img src ="images/6d3e12fac7eae895e4acbcc46c885747a105d0b4c1203bb28785de78ddef92ce.png">  
 </center>
 
+___________________________________________________
 **Ejemplo slicer Registro**
+
 Flujo de trabajo 
-* Sujeto A
+* **Sujeto A**
     - Registro afín de la imagen T2w a T1w 
-* Sujeto B
+* **Sujeto B**
     - Registro afín de la imagen T2w a T1w 
-* Imágenes T1w
+* **Imágenes T1w**
     - Registrar  imagen de Sujeto B a imagen de sujeto A. 
 
 1. Cargar imágenes de dataset 2
@@ -242,4 +253,4 @@ Flujo de trabajo
 9. Seleccionar las fases de registro rígido 6DOF y afín 12DOF. 
 10. Ejecutar
 
-Se toma la imagen fija, la de mayor resolución o la que tiene mayor información de interés. 
+`Se toma la imagen fija, la de mayor resolución o la que tiene mayor información de interés.` 

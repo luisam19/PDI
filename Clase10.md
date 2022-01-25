@@ -1,36 +1,57 @@
-# Segmentación 
+# Segmentación y operaciones morfológicas 
 
-La segmentación de imágenes médicas es el proceso de detección automática o semiautomática de límites dentro de una imagen 2D o 3D
+Fecha: 20 de enero 2022
+Autor: Luisa María Zapata Saldarriaga 
 
-Segmentación de tumor cerebral
+# Segmentación
+La segmentación de imágenes médicas es el proceso de **detección automática** o semiautomática de límites dentro de una imagen 2D o 3D. Los límites van a representar la imagen de interés. 
+
+
 <center>
+
+**Segmentación de tumor cerebral**
 <img src="images/37d6d1134d4c73e770b0aafa1b0a726348b624ce296b8478b3206382d3e4cef2.png">
+
 </center>
 
 Las imágenes médicas presentan alta variabilidad debido a:
 * Anatomía humana
 * Métodos de adquisición (rayos X, CT,MRI,PET,SPECT, endoscopia, entre otros)
 
-El resultado de la segmentación se puede utilizar para obtener más información de diagnóstico. 
+El resultado de la segmentación se puede utilizar para obtener más información de **diagnóstico**. 
 
 ## Aplicaciones
 Segmentación de riñones para detección de tumores utilizando redes neuronales convolucionales y deep learning.
 
-
 <center>
+
+**Detección de tumores utilizando redes neuronales- deep learning**
 <img src="images/8e7f6afbc055b8cccbe35c43cb08f88cbc10e5fff2321a52d566f9b64930e925.png">
 </center>  
 
 
-Segmentación de riñones para detección de tumores utilizando redes neuronales convolucionales y deep learning. 
-
-Comparación de la predicción vs Ground truth. True label es lo que se acepta por la comunidad científica para identificar que es un tumor. Disminuir tiempos de segmentación manual, quita mucho tiempo, es importante
+Comparación de la predicción vs Ground truth. True label es lo que se acepta por la comunidad científica para identificar que es un tumor. Disminuir tiempos de segmentación manual, quita mucho tiempo, es importante para no depende de una persona. 
 
 **Detección y clasificación de lesiones en mamografía con deep learning**
 
-**Qmenta**
-Empresa que entrega reportes volumétricos.
+Imágenes de mamografía especializada tomosíntesis. Lo hace un algoritmo muy avanzado basado en aprendizaje profundo. 
+<center>
+<img src="images/4ef4ce726c0411febee79eae544199ec6eae14498cb1f7a0318412231919e39f.png">
+</center>
 
+**Qmenta**
+Empresa que entrega reportes volumétricos o medidas de regiones cerebral.
+
+Identifica regiones sub-corticales y reporta el volumen de las regiones y lo compara con valores de referencia. 
+
+<center>
+<img src="images/385940a833a46360edf9835368c3ca7686c68d40d87f350b524b01cb7a5ec4f5.png">
+</center>
+
+**Sub-proceso en flujo de procesamiento**
+<center>
+<img src="images/eab4e940e26b72fde9a9d73387f56d4b2a20d37c18bbd8dd9996fe27b3e7e8cb.png">
+</center>
 
 ## Métodos
 1. Métodos convencionales o entrada manual, son pocos flexibles
