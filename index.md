@@ -17,3 +17,11 @@
 - [Filtrado y registro en 3D slicer ](https://luisam19.github.io/PDI/Clase09)
 - [Segmentación y operaciones morfológicas](https://luisam19.github.io/PDI/Clase10)
 - [Visualización 3D y volume rendering](https://luisam19.github.io/PDI/Clase11)
+
+### 3 unidad
+- [Visión por computadora](https://luisam19.github.io/PDI/Clase12) 
+
+
+### 4 unidad
+- [Imágenes por resonancia magnética](https://luisam19.github.io/PDI/Clase13) 
+- [Imágenes por resonancia magnética](https://luisam19.github.io/PDI/Clase14) 
